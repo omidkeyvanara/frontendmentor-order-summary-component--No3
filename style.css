@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+html {
+  font-size: 62.5%;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.main-body {
+  background-color: #fff;
+  max-width: 37rem;
+  border-radius: 9px;
+}
+
+.main-body img {
+  max-width: 100%;
+  border-radius: 9px 9px 0 0;
+}
+
+.text-box {
+  text-align: center;
+}
+
+.text-box h1 {
+  margin: 3rem 0 1.7rem 0;
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+.text-box p {
+  padding: 0 5rem;
+  color: #7c7b7b;
+  font-size: 1.35rem;
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.select-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  width: 28rem;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  background-color: hsl(225, 100%, 98%)
+}
+
+.select-box img {
+  margin-left: 0.5rem;
+  width: 4rem;
+}
+
+.select-box p {
+  font-size: 1.4rem;
+  padding-left: 1.6rem;
+  margin: 0 auto;
+}
+
+.bold {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: black;
+}
+
+.select-box a:link, .select-box a:visited {
+  padding-left: 1.8rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+  transition: all 0.1s;
+}
+
+.select-box a:hover, .select-box a:active {
+color:hsl(245, 90%, 68%); 
+text-decoration: none;
+}
+
+.payment:link, .payment:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 2.7rem;
+  padding: 1.3rem 7.7rem;
+  border-radius: 9px;
+  background-color: hsl(245, 75%, 52%);
+  transition: all 0.3s;
+}
+
+.payment:hover, .payment:active{
+  background-color: hsl(245, 90%, 68%);
+}
+
+.cancel:link, .cancel:visited {
+  display: block;
+  text-decoration: none;
+  color: #7c7b7b;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 2.5rem 0 3.5rem 0;
+  transition: all 0.3s;
+}
+
+.cancel:hover, .cancel:active{
+color: black;
+}
