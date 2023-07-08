@@ -5,12 +5,15 @@
 }
 
 body {
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   min-height: 100vh;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 html {
@@ -20,7 +23,7 @@ html {
 
 .main-body {
   background-color: #fff;
-  max-width: 37rem;
+  max-width: 45rem;
   border-radius: 9px;
 }
 
@@ -34,15 +37,15 @@ html {
 }
 
 .text-box h1 {
-  margin: 3rem 0 1.7rem 0;
-  font-size: 2.3rem;
+  margin: 3.5rem 0 2.5rem 0;
+  font-size: 2.8rem;
   font-weight: 900;
 }
 
 .text-box p {
   padding: 0 5rem;
   color: #7c7b7b;
-  font-size: 1.35rem;
+  font-size: 1.7rem;
   margin-bottom: 2.5rem;
   font-weight: 400;
   line-height: 1.5;
@@ -53,30 +56,37 @@ html {
   align-items: center;
   justify-content: center;
   border-radius: 9px;
-  width: 28rem;
-  padding: 1.5rem 0;
+  width: 35rem;
+  padding: 2.3rem 0;
   margin: 0 auto;
-  background-color: hsl(225, 100%, 98%)
+  background-color: hsl(225, 100%, 98%);
 }
 
 .select-box img {
-  margin-left: 0.5rem;
-  width: 4rem;
+  margin-right: 3.3rem;
+  width: 5rem;
 }
 
+.inner-text{
+  /* margin-left: 4rem; */
+  /* padding-right: 3rem; */
+  background-color: aquamarine;
+}
 .select-box p {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   padding-left: 1.6rem;
   margin: 0 auto;
 }
 
 .bold {
-  font-size: 1.4rem;
+  /* margin-right: 2rem; */
+  font-size: 1.7rem;
   font-weight: 900;
   color: black;
 }
 
-.select-box a:link, .select-box a:visited {
+.select-box a:link,
+.select-box a:visited {
   padding-left: 1.8rem;
   font-size: 1.2rem;
   font-weight: 900;
@@ -84,12 +94,14 @@ html {
   transition: all 0.1s;
 }
 
-.select-box a:hover, .select-box a:active {
-color:hsl(245, 90%, 68%); 
-text-decoration: none;
+.select-box a:hover,
+.select-box a:active {
+  color: hsl(245, 90%, 68%);
+  text-decoration: none;
 }
 
-.payment:link, .payment:visited {
+.payment:link,
+.payment:visited {
   display: inline-block;
   text-decoration: none;
   color: #fff;
@@ -102,11 +114,13 @@ text-decoration: none;
   transition: all 0.3s;
 }
 
-.payment:hover, .payment:active{
+.payment:hover,
+.payment:active {
   background-color: hsl(245, 90%, 68%);
 }
 
-.cancel:link, .cancel:visited {
+.cancel:link,
+.cancel:visited {
   display: block;
   text-decoration: none;
   color: #7c7b7b;
@@ -116,6 +130,7 @@ text-decoration: none;
   transition: all 0.3s;
 }
 
-.cancel:hover, .cancel:active{
-color: black;
+.cancel:hover,
+.cancel:active {
+  color: black;
 }
