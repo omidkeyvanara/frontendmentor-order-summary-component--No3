@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+  background-color: hsl(225, 100%, 94%);
+}
+
 body {
   font-family: "Red Hat Display", sans-serif;
   min-height: 100vh;
@@ -16,10 +21,6 @@ body {
   justify-content: center;
 }
 
-html {
-  font-size: 62.5%;
-  background-color: hsl(225, 100%, 94%);
-}
 
 .main-body {
   background-color: #fff;
@@ -54,7 +55,7 @@ html {
 .select-box {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   border-radius: 9px;
   width: 35rem;
   padding: 2.3rem 0;
@@ -63,23 +64,22 @@ html {
 }
 
 .select-box img {
-  margin-right: 3.3rem;
   width: 5rem;
+  margin-left: 2.5rem;
 }
 
 .inner-text{
-  /* margin-left: 4rem; */
-  /* padding-right: 3rem; */
-  background-color: aquamarine;
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 1.5rem;
 }
-.select-box p {
-  font-size: 1.7rem;
-  padding-left: 1.6rem;
-  margin: 0 auto;
+
+.inner-text p {
+  margin:0 ;
+  padding: 0;
 }
 
 .bold {
-  /* margin-right: 2rem; */
   font-size: 1.7rem;
   font-weight: 900;
   color: black;
@@ -87,9 +87,9 @@ html {
 
 .select-box a:link,
 .select-box a:visited {
-  padding-left: 1.8rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 900;
+  margin-right:  2.5rem;
   color: hsl(245, 75%, 52%);
   transition: all 0.1s;
 }
@@ -105,10 +105,10 @@ html {
   display: inline-block;
   text-decoration: none;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 700;
   margin-top: 2.7rem;
-  padding: 1.3rem 7.7rem;
+  padding: 1.3rem 10.7rem;
   border-radius: 9px;
   background-color: hsl(245, 75%, 52%);
   transition: all 0.3s;
@@ -124,7 +124,7 @@ html {
   display: block;
   text-decoration: none;
   color: #7c7b7b;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 700;
   margin: 2.5rem 0 3.5rem 0;
   transition: all 0.3s;
@@ -134,3 +134,4 @@ html {
 .cancel:active {
   color: black;
 }
+
